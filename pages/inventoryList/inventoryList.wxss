@@ -1,0 +1,44 @@
+/* inventoryList.wxss */
+.swiper-tab {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 100%;
+    height: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #b2b2b2;
+    background-color: #fff;
+    padding: 5px 60rpx 0 60rpx;
+    font-size: 14px;
+    line-height: 30px;
+    box-sizing: border-box;
+    z-index: 999;
+    border-bottom: solid 1px #f8f8f8;
+}  
+
+.swiper-tab-list {  
+    flex-grow: 1;
+    text-align: center; 
+}  
+
+.on view { 
+    color: #1b1d1e;
+    font-weight: bold;
+    border-bottom: solid 4px #1b1d1e;
+    display: inline-block;
+}  
+  
+swiper { 
+    margin-top: 95px;
+    display: block; 
+    height: 100%; 
+    width: 100%; 
+    overflow: hidden; 
+    z-index: 1;
+    /*position: relative;*/
+}
+swiper-item {
+    position: relative;
+}

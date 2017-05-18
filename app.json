@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/inventoryList/inventoryList",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "板凳星公会",
+    "navigationBarTextStyle": "black"
+  }
+}
